@@ -1,0 +1,17 @@
+<section class="container-sm">
+    <section class="row ">
+          <section class="col-4 d-flex mx-auto">
+            <form class="mx-auto">
+                <div class="form-group">
+                  <label for="username">Username</label>
+                  <input type="text" class="form-control" [(ngModel)]="username" name="username" required>
+                </div>
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" class="form-control" [(ngModel)]="password" name="password" required>
+                </div>
+                <input class="btn btn-primary mt-3" (click)="login()" value="Log in">
+              </form>
+          </section>
+    </section>
+</section>
